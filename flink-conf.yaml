@@ -1,0 +1,8 @@
+# flink-conf.yaml
+jobmanager.rpc.address: localhost
+taskmanager.numberOfTaskSlots: 4
+
+# Application properties
+flink.application.jar: /path/to/your-flink-app.jar
+kafka.bootstrap.servers: localhost:9092
+kafka.topic: dbserver1.testdb.test_table
